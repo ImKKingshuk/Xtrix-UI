@@ -1,0 +1,62 @@
+{
+  "name": "xtrixui",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./Accordion": {
+      "types": "./dist/Accordion/Accordion.d.ts",
+      "import": "./dist/Accordion/Accordion.js"
+    },
+    "./Avatar": {
+      "types": "./dist/Avatar/Avatar.d.ts",
+      "import": "./dist/Avatar/Avatar.js"
+    },
+    "./Card": {
+      "types": "./dist/Card/Card.d.ts",
+      "import": "./dist/Card/Card.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@rsbuild/plugin-react": "^1.0.7",
+    "@rslib/core": "^0.0.18",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@types/react": "^18.3.12",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "jsdom": "^25.0.1",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0",
+    "vitest": "^2.1.5"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "classifyx": "^2.0.0",
+    "react-icons": "^5.3.0",
+    "themesx": "^1.1.3"
+  }
+}
