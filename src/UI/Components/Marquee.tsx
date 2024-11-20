@@ -44,7 +44,7 @@ const Marquee = React.forwardRef<HTMLDivElement, MarqueeProps>(
       <MarqueeOverlay position="left" />
       <MarqueeOverlay position="right" />
 
-      <style jsx>{`
+      <style>{`
         @keyframes marquee {
           from {
             transform: translateX(0);
