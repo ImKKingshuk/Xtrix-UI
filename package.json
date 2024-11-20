@@ -8,20 +8,20 @@
       "import": "./dist/index.js"
     },
     "./Accordion": {
-      "types": "./dist/Accordion/Accordion.d.ts",
-      "import": "./dist/Accordion/Accordion.js"
+      "types": "./dist/UI/Components/Accordion/Accordion.d.ts",
+      "import": "./dist/UI/Components/Accordion/Accordion.js"
     },
     "./Avatar": {
-      "types": "./dist/Avatar/Avatar.d.ts",
-      "import": "./dist/Avatar/Avatar.js"
+      "types": "./dist/UI/Components/Avatar/Avatar.d.ts",
+      "import": "./dist/UI/Components/Avatar/Avatar.js"
     },
     "./Card": {
-      "types": "./dist/Card/Card.d.ts",
-      "import": "./dist/Card/Card.js"
+      "types": "./dist/UI/Components/Card/Card.d.ts",
+      "import": "./dist/UI/Components/Card/Card.js"
     },
     "./ThemeProvider": {
-      "types": "./dist/Providers/ThemeProvider.d.ts",
-      "import": "./dist/Providers/ThemeProvider.js"
+      "types": "./dist/UI/Providers/ThemeProvider.d.ts",
+      "import": "./dist/UI/Providers/ThemeProvider.js"
     }
   },
   "main": "./dist/index.js",
