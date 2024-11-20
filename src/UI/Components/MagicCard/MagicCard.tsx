@@ -1,11 +1,4 @@
-import {
-  CSSProperties,
-  ReactElement,
-  ReactNode,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import * as React from "react";
 import { cfx } from "classifyx";
 
 interface MousePosition {
@@ -14,12 +7,12 @@ interface MousePosition {
 }
 
 function useMousePosition(): MousePosition {
-  const [mousePosition, setMousePosition] = useState<MousePosition>({
+  const [mousePosition, setMousePosition] = React.useState<MousePosition>({
     x: 0,
     y: 0,
   });
 
-  useEffect(() => {
+  React.useEffect(() => {
     const handleMouseMove = (event: globalThis.MouseEvent) => {
       setMousePosition({ x: event.clientX, y: event.clientY });
     };
@@ -35,18 +28,18 @@ function useMousePosition(): MousePosition {
 }
 
 interface MagicContainerProps {
-  children?: ReactNode;
+  children?: React.ReactNode;
   className?: string;
 }
 
 function MagicContainer({ children, className }: MagicContainerProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = React.useRef<HTMLDivElement>(null);
   const mousePosition = useMousePosition();
-  const mouse = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
-  const containerSize = useRef<{ w: number; h: number }>({ w: 0, h: 0 });
-  const [boxes, setBoxes] = useState<Array<HTMLElement>>([]);
+  const mouse = React.useRef<{ x: number; y: number }>({ x: 0, y: 0 });
+  const containerSize = React.useRef<{ w: number; h: number }>({ w: 0, h: 0 });
+  const [boxes, setBoxes] = React.useState<Array<HTMLElement>>([]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     init();
     containerRef.current &&
       setBoxes(
@@ -56,7 +49,7 @@ function MagicContainer({ children, className }: MagicContainerProps) {
       );
   }, []);
 
-  useEffect(() => {
+  React.useEffect(() => {
     init();
     window.addEventListener("resize", init);
 
@@ -65,7 +58,7 @@ function MagicContainer({ children, className }: MagicContainerProps) {
     };
   }, [setBoxes]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     onMouseMove();
   }, [mousePosition]);
 
@@ -110,11 +103,11 @@ function MagicContainer({ children, className }: MagicContainerProps) {
 interface MagicCardProps {
   /**
    * @default <div />
-   * @type ReactElement
+   * @type React.ReactElement
    * @description
    * The component to be rendered as the card
    */
-  as?: ReactElement;
+  as?: React.ReactElement;
   /**
    * @default ""
    * @type string
@@ -125,11 +118,11 @@ interface MagicCardProps {
 
   /**
    * @default ""
-   * @type ReactNode
+   * @type React.ReactNode
    * @description
    * The children of the card
    */
-  children?: ReactNode;
+  children?: React.ReactNode;
 
   /**
    * @default 600
@@ -189,7 +182,7 @@ const MagicCard: React.FC<MagicCardProps> = ({
         {
           "--mask-size": `${size}px`,
           "--border-color": `${borderColor}`,
-        } as CSSProperties
+        } as React.CSSProperties
       }
       className={cfx(
         "relative z-0 size-full rounded-2xl p-6",
