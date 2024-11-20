@@ -5,6 +5,7 @@ export default defineConfig({
   source: {
     entry: {
       index: ["./src/**"],
+      //Components
       Accordion: ["./src/UI/Components/Accordion/index.ts"],
       Alert: ["./src/UI/Components/Alert/index.ts"],
       AspectRatio: ["./src/UI/Components/AspectRatio/index.ts"],
@@ -63,8 +64,9 @@ export default defineConfig({
       Toggle: ["./src/UI/Components/Toggle/index.ts"],
       Tooltip: ["./src/UI/Components/Tooltip/index.ts"],
       User: ["./src/UI/Components/User/index.ts"],
-
+      //Providers
       ThemeProvider: ["./src/UI/Providers/ThemeProvider/index.ts"],
+      //Configs
       TailwindConfig: ["./src/UI/Configs/TailwindConfig/index.ts"],
     },
   },
