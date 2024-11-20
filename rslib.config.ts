@@ -9,6 +9,7 @@ export default defineConfig({
       Avatar: ["./src/UI/Components/Avatar/index.ts"],
       Card: ["./src/UI/Components/Card/index.ts"],
       ThemeProvider: ["./src/UI/Providers/ThemeProvider/index.ts"],
+      TailwindConfig: ["./src/UI/Configs/TailwindConfig/index.ts"],
     },
   },
   lib: [
