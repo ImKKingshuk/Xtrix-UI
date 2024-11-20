@@ -36,3 +36,5 @@ export * from "./Progress";
 export * from "./RainbowButton";
 export * from "./Ratings";
 export * from "./Resizable";
+export * from "./ReviewCard";
+export * from "./RoundedBadge";
