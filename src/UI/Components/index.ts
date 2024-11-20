@@ -23,3 +23,4 @@ export * from "./Input";
 export * from "./InputFloatingLabel";
 export * from "./InputIcon";
 export * from "./InputOTP";
+export * from "./KeyboardKey";
