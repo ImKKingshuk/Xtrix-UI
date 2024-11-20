@@ -10,3 +10,4 @@ export * from "./Button";
 export * from "./Calender";
 export * from "./Card";
 export * from "./Carousel";
+export * from "./Checkbox";
