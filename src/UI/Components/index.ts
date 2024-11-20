@@ -9,3 +9,4 @@ export * from "./Breadcrumb";
 export * from "./Button";
 export * from "./Calender";
 export * from "./Card";
+export * from "./Carousel";
