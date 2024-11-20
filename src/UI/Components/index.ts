@@ -6,4 +6,5 @@ export * from "./Badge";
 export * from "./BentoGrid";
 export * from "./BorderBeam";
 export * from "./Breadcrumb";
+export * from "./Button";
 export * from "./Card";
