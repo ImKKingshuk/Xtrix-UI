@@ -181,9 +181,8 @@ const Slider: React.FC<SliderProps> = ({
   );
 };
 
-// Add necessary styles to hide the default thumb in various browsers.
 const SliderStyles = () => (
-  <style jsx global>{`
+  <style>{`
     /* Hide the default slider thumb on WebKit browsers */
     input[type="range"]::-webkit-slider-thumb {
       -webkit-appearance: none;
