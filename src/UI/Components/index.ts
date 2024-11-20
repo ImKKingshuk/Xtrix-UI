@@ -3,4 +3,7 @@ export * from "./Alert";
 export * from "./AspectRatio";
 export * from "./Avatar";
 export * from "./Badge";
+export * from "./BentoGrid";
+export * from "./BorderBeam";
+export * from "./Breadcrumb";
 export * from "./Card";
