@@ -22,6 +22,10 @@
     "./ThemeProvider": {
       "types": "./dist/UI/Providers/ThemeProvider/ThemeProvider.d.ts",
       "import": "./dist/UI/Providers/ThemeProvider/ThemeProvider.js"
+    },
+    "./TailwindConfig": {
+      "types": "./dist/UI/Configs/TailwindConfig/TailwindConfig.d.ts",
+      "import": "./dist/UI/Configs/TailwindConfig/TailwindConfig.js"
     }
   },
   "main": "./dist/index.js",
