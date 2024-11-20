@@ -1,7 +1,7 @@
 import { cfx } from "classifyx";
 import type { Dispatch, SetStateAction } from "react";
 import React from "react";
-import { LuStar as StarIcon } from "react-icons/lu"; // Updated import for the star icon
+import { LuStar as StarIcon } from "react-icons/lu";
 
 interface StarWrapperProps {
   value?: number;
@@ -10,7 +10,7 @@ interface StarWrapperProps {
   icon?: React.ComponentType<any>; // Updated to allow any icon component
   disabled?: boolean;
   wrapperProps?: React.HTMLAttributes<HTMLDivElement>;
-  iconProps?: React.HTMLAttributes<SVGSVGElement>; // Changed to match react-icons props
+  iconProps?: React.HTMLAttributes<SVGSVGElement>;
   showcase?: boolean;
 }
 

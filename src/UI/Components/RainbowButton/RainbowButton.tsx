@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cfx } from "classifyx"; // Import your custom utility for class merging
+import { cfx } from "classifyx";
 
 interface RainbowButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
@@ -25,7 +25,7 @@ export function RainbowButton({ children, ...props }: RainbowButtonProps) {
         {children}
       </button>
 
-      <style jsx>{`
+      <style>{`
         :root {
           --color-1: 0 100% 63%;
           --color-2: 270 100% 63%;
