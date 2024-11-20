@@ -37,7 +37,7 @@ export function Meteors({ number = 20 }: MeteorsProps) {
       ))}
 
       {/* Inline keyframes */}
-      <style jsx>{`
+      <style>{`
         @keyframes meteor {
           0% {
             transform: rotate(215deg) translateX(0);
