@@ -11,13 +11,233 @@
       "types": "./dist/UI/Components/Accordion/Accordion.d.ts",
       "import": "./dist/UI/Components/Accordion/Accordion.js"
     },
+    "./Alert": {
+      "types": "./dist/UI/Components/Alert/Alert.d.ts",
+      "import": "./dist/UI/Components/Alert/Alert.js"
+    },
+    "./AspectRatio": {
+      "types": "./dist/UI/Components/AspectRatio/AspectRatio.d.ts",
+      "import": "./dist/UI/Components/AspectRatio/AspectRatio.js"
+    },
     "./Avatar": {
       "types": "./dist/UI/Components/Avatar/Avatar.d.ts",
       "import": "./dist/UI/Components/Avatar/Avatar.js"
     },
+    "./Badge": {
+      "types": "./dist/UI/Components/Badge/Badge.d.ts",
+      "import": "./dist/UI/Components/Badge/Badge.js"
+    },
+    "./BentoGrid": {
+      "types": "./dist/UI/Components/BentoGrid/BentoGrid.d.ts",
+      "import": "./dist/UI/Components/BentoGrid/BentoGrid.js"
+    },
+    "./BorderBeam": {
+      "types": "./dist/UI/Components/BorderBeam/BorderBeam.d.ts",
+      "import": "./dist/UI/Components/BorderBeam/BorderBeam.js"
+    },
+    "./Breadcrumb": {
+      "types": "./dist/UI/Components/Breadcrumb/Breadcrumb.d.ts",
+      "import": "./dist/UI/Components/Breadcrumb/Breadcrumb.js"
+    },
+    "./Button": {
+      "types": "./dist/UI/Components/Button/Button.d.ts",
+      "import": "./dist/UI/Components/Button/Button.js"
+    },
+    "./Calender": {
+      "types": "./dist/UI/Components/Calender/Calender.d.ts",
+      "import": "./dist/UI/Components/Calender/Calender.js"
+    },
     "./Card": {
       "types": "./dist/UI/Components/Card/Card.d.ts",
       "import": "./dist/UI/Components/Card/Card.js"
+    },
+    "./Carousel": {
+      "types": "./dist/UI/Components/Carousel/Carousel.d.ts",
+      "import": "./dist/UI/Components/Carousel/Carousel.js"
+    },
+    "./Checkbox": {
+      "types": "./dist/UI/Components/Checkbox/Checkbox.d.ts",
+      "import": "./dist/UI/Components/Checkbox/Checkbox.js"
+    },
+    "./Collapsible": {
+      "types": "./dist/UI/Components/Collapsible/Collapsible.d.ts",
+      "import": "./dist/UI/Components/Collapsible/Collapsible.js"
+    },
+    "./Combobox": {
+      "types": "./dist/UI/Components/Combobox/Combobox.d.ts",
+      "import": "./dist/UI/Components/Combobox/Combobox.js"
+    },
+    "./ContextMenu": {
+      "types": "./dist/UI/Components/ContextMenu/ContextMenu.d.ts",
+      "import": "./dist/UI/Components/ContextMenu/ContextMenu.js"
+    },
+    "./CopyToClipboard": {
+      "types": "./dist/UI/Components/CopyToClipboard/CopyToClipboard.d.ts",
+      "import": "./dist/UI/Components/CopyToClipboard/CopyToClipboard.js"
+    },
+    "./Dialog": {
+      "types": "./dist/UI/Components/Dialog/Dialog.d.ts",
+      "import": "./dist/UI/Components/Dialog/Dialog.js"
+    },
+    "./Drawer": {
+      "types": "./dist/UI/Components/Drawer/Drawer.d.ts",
+      "import": "./dist/UI/Components/Drawer/Drawer.js"
+    },
+    "./GradientBG": {
+      "types": "./dist/UI/Components/GradientBG/GradientBG.d.ts",
+      "import": "./dist/UI/Components/GradientBG/GradientBG.js"
+    },
+    "./HoverCard": {
+      "types": "./dist/UI/Components/HoverCard/HoverCard.d.ts",
+      "import": "./dist/UI/Components/HoverCard/HoverCard.js"
+    },
+    "./Input": {
+      "types": "./dist/UI/Components/Input/Input.d.ts",
+      "import": "./dist/UI/Components/Input/Input.js"
+    },
+    "./InputFloatingLabel": {
+      "types": "./dist/UI/Components/InputFloatingLabel/InputFloatingLabel.d.ts",
+      "import": "./dist/UI/Components/InputFloatingLabel/InputFloatingLabel.js"
+    },
+    "./InputIcon": {
+      "types": "./dist/UI/Components/InputIcon/InputIcon.d.ts",
+      "import": "./dist/UI/Components/InputIcon/InputIcon.js"
+    },
+    "./InputOTP": {
+      "types": "./dist/UI/Components/InputOTP/InputOTP.d.ts",
+      "import": "./dist/UI/Components/InputOTP/InputOTP.js"
+    },
+    "./KeyboardKey": {
+      "types": "./dist/UI/Components/KeyboardKey/KeyboardKey.d.ts",
+      "import": "./dist/UI/Components/KeyboardKey/KeyboardKey.js"
+    },
+    "./Link": {
+      "types": "./dist/UI/Components/Link/Link.d.ts",
+      "import": "./dist/UI/Components/Link/Link.js"
+    },
+    "./Loading": {
+      "types": "./dist/UI/Components/Loading/Loading.d.ts",
+      "import": "./dist/UI/Components/Loading/Loading.js"
+    },
+    "./MagicCard": {
+      "types": "./dist/UI/Components/MagicCard/MagicCard.d.ts",
+      "import": "./dist/UI/Components/MagicCard/MagicCard.js"
+    },
+    "./Marquee": {
+      "types": "./dist/UI/Components/Marquee/Marquee.d.ts",
+      "import": "./dist/UI/Components/Marquee/Marquee.js"
+    },
+    "./Meteors": {
+      "types": "./dist/UI/Components/Meteors/Meteors.d.ts",
+      "import": "./dist/UI/Components/Meteors/Meteors.js"
+    },
+    "./Pagination": {
+      "types": "./dist/UI/Components/Pagination/Pagination.d.ts",
+      "import": "./dist/UI/Components/Pagination/Pagination.js"
+    },
+    "./Particles": {
+      "types": "./dist/UI/Components/Particles/Particles.d.ts",
+      "import": "./dist/UI/Components/Particles/Particles.js"
+    },
+    "./Popover": {
+      "types": "./dist/UI/Components/Popover/Popover.d.ts",
+      "import": "./dist/UI/Components/Popover/Popover.js"
+    },
+    "./Progress": {
+      "types": "./dist/UI/Components/Progress/Progress.d.ts",
+      "import": "./dist/UI/Components/Progress/Progress.js"
+    },
+    "./RainbowButton": {
+      "types": "./dist/UI/Components/RainbowButton/RainbowButton.d.ts",
+      "import": "./dist/UI/Components/RainbowButton/RainbowButton.js"
+    },
+    "./Ratings": {
+      "types": "./dist/UI/Components/Ratings/Ratings.d.ts",
+      "import": "./dist/UI/Components/Ratings/Ratings.js"
+    },
+    "./Resizable": {
+      "types": "./dist/UI/Components/Resizable/Resizable.d.ts",
+      "import": "./dist/UI/Components/Resizable/Resizable.js"
+    },
+    "./ReviewCard": {
+      "types": "./dist/UI/Components/ReviewCard/ReviewCard.d.ts",
+      "import": "./dist/UI/Components/ReviewCard/ReviewCard.js"
+    },
+    "./RoundedBadge": {
+      "types": "./dist/UI/Components/RoundedBadge/RoundedBadge.d.ts",
+      "import": "./dist/UI/Components/RoundedBadge/RoundedBadge.js"
+    },
+    "./ScrollArea": {
+      "types": "./dist/UI/Components/ScrollArea/ScrollArea.d.ts",
+      "import": "./dist/UI/Components/ScrollArea/ScrollArea.js"
+    },
+    "./Select": {
+      "types": "./dist/UI/Components/Select/Select.d.ts",
+      "import": "./dist/UI/Components/Select/Select.js"
+    },
+    "./Separator": {
+      "types": "./dist/UI/Components/Separator/Separator.d.ts",
+      "import": "./dist/UI/Components/Separator/Separator.js"
+    },
+    "./Skeleton": {
+      "types": "./dist/UI/Components/Skeleton/Skeleton.d.ts",
+      "import": "./dist/UI/Components/Skeleton/Skeleton.js"
+    },
+    "./Slider": {
+      "types": "./dist/UI/Components/Slider/Slider.d.ts",
+      "import": "./dist/UI/Components/Slider/Slider.js"
+    },
+    "./Sonner": {
+      "types": "./dist/UI/Components/Sonner/Sonner.d.ts",
+      "import": "./dist/UI/Components/Sonner/Sonner.js"
+    },
+    "./SpotlightHover": {
+      "types": "./dist/UI/Components/SpotlightHover/SpotlightHover.d.ts",
+      "import": "./dist/UI/Components/SpotlightHover/SpotlightHover.js"
+    },
+    "./Switch": {
+      "types": "./dist/UI/Components/Switch/Switch.d.ts",
+      "import": "./dist/UI/Components/Switch/Switch.js"
+    },
+    "./Table": {
+      "types": "./dist/UI/Components/Table/Table.d.ts",
+      "import": "./dist/UI/Components/Table/Table.js"
+    },
+    "./TableOfContents": {
+      "types": "./dist/UI/Components/TableOfContents/TableOfContents.d.ts",
+      "import": "./dist/UI/Components/TableOfContents/TableOfContents.js"
+    },
+    "./Tabs": {
+      "types": "./dist/UI/Components/Tabs/Tabs.d.ts",
+      "import": "./dist/UI/Components/Tabs/Tabs.js"
+    },
+    "./Textarea": {
+      "types": "./dist/UI/Components/Textarea/Textarea.d.ts",
+      "import": "./dist/UI/Components/Textarea/Textarea.js"
+    },
+    "./TiltHover": {
+      "types": "./dist/UI/Components/TiltHover/TiltHover.d.ts",
+      "import": "./dist/UI/Components/TiltHover/TiltHover.js"
+    },
+    "./Timeline": {
+      "types": "./dist/UI/Components/Timeline/Timeline.d.ts",
+      "import": "./dist/UI/Components/Timeline/Timeline.js"
+    },
+    "./Toast": {
+      "types": "./dist/UI/Components/Toast/Toast.d.ts",
+      "import": "./dist/UI/Components/Toast/Toast.js"
+    },
+    "./Toggle": {
+      "types": "./dist/UI/Components/Toggle/Toggle.d.ts",
+      "import": "./dist/UI/Components/Toggle/Toggle.js"
+    },
+    "./Tooltip": {
+      "types": "./dist/UI/Components/Tooltip/Tooltip.d.ts",
+      "import": "./dist/UI/Components/Tooltip/Tooltip.js"
+    },
+    "./User": {
+      "types": "./dist/UI/Components/User/User.d.ts",
+      "import": "./dist/UI/Components/User/User.js"
     },
     "./ThemeProvider": {
       "types": "./dist/UI/Providers/ThemeProvider/ThemeProvider.d.ts",
