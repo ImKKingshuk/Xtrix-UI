@@ -14,3 +14,4 @@ export * from "./Checkbox";
 export * from "./Collapsible";
 export * from "./Combobox";
 export * from "./ContextMenu";
+export * from "./CopyToClipboard";
