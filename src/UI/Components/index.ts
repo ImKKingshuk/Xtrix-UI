@@ -12,3 +12,5 @@ export * from "./Card";
 export * from "./Carousel";
 export * from "./Checkbox";
 export * from "./Collapsible";
+export * from "./Combobox";
+export * from "./ContextMenu";
