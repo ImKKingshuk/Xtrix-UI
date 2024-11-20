@@ -31,3 +31,8 @@ export * from "./Marquee";
 export * from "./Meteors";
 export * from "./Pagination";
 export * from "./Particles";
+export * from "./Popover";
+export * from "./Progress";
+export * from "./RainbowButton";
+export * from "./Ratings";
+export * from "./Resizable";
