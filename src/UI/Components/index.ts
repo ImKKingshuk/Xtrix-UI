@@ -15,3 +15,5 @@ export * from "./Collapsible";
 export * from "./Combobox";
 export * from "./ContextMenu";
 export * from "./CopyToClipboard";
+export * from "./Dialog";
+export * from "./Drawer";
