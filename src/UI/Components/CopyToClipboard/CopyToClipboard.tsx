@@ -80,14 +80,14 @@ const CopyButton = React.forwardRef<
         <LuCopy />
       )}
     </button>
-    <Tooltip copied={copied} />
+    <ClipboardTooltip copied={copied} />
   </div>
 ));
 
 CopyButton.displayName = "CopyButton";
 
-// Tooltip Subcomponent
-const Tooltip = React.forwardRef<HTMLDivElement, { copied: boolean }>(
+// ClipboardTooltip Subcomponent
+const ClipboardTooltip = React.forwardRef<HTMLDivElement, { copied: boolean }>(
   ({ copied }, ref) => (
     <div ref={ref} className="absolute bottom-2 mb-6 hidden group-hover:flex">
       <span
@@ -103,7 +103,7 @@ const Tooltip = React.forwardRef<HTMLDivElement, { copied: boolean }>(
   ),
 );
 
-Tooltip.displayName = "Tooltip";
+ClipboardTooltip.displayName = "ClipboardTooltip";
 
 export default CopyToClipboard;
-export { Tooltip, CopyButton, CommandText };
+export { ClipboardTooltip, CopyButton, CommandText };
