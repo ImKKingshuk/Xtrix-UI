@@ -18,6 +18,10 @@
     "./Card": {
       "types": "./dist/Card/Card.d.ts",
       "import": "./dist/Card/Card.js"
+    },
+    "./ThemeProvider": {
+      "types": "./dist/Providers/ThemeProvider.d.ts",
+      "import": "./dist/Providers/ThemeProvider.js"
     }
   },
   "main": "./dist/index.js",
