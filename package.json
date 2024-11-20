@@ -20,8 +20,8 @@
       "import": "./dist/UI/Components/Card/Card.js"
     },
     "./ThemeProvider": {
-      "types": "./dist/UI/Providers/ThemeProvider.d.ts",
-      "import": "./dist/UI/Providers/ThemeProvider.js"
+      "types": "./dist/UI/Providers/ThemeProvider/ThemeProvider.d.ts",
+      "import": "./dist/UI/Providers/ThemeProvider/ThemeProvider.js"
     }
   },
   "main": "./dist/index.js",
