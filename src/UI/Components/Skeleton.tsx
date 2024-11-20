@@ -1,5 +1,5 @@
+import * as React from "react";
 import { cfx } from "classifyx";
-
 function Skeleton({
   className,
   ...props
