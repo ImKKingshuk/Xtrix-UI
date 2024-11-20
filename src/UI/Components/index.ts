@@ -22,3 +22,4 @@ export * from "./HoverCard";
 export * from "./Input";
 export * from "./InputFloatingLabel";
 export * from "./InputIcon";
+export * from "./InputOTP";
