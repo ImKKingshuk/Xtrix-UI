@@ -1,4 +1,3 @@
-"use client";
 import * as React from "react";
 import { LuCheck, LuChevronRight, LuCircle } from "react-icons/lu";
 import { cfx } from "classifyx";
