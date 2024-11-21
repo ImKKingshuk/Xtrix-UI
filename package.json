@@ -179,6 +179,10 @@
       "types": "./dist/UI/Components/Separator/Separator.d.ts",
       "import": "./dist/UI/Components/Separator/Separator.js"
     },
+    "./Sheet": {
+      "types": "./dist/UI/Components/Sheet/Sheet.d.ts",
+      "import": "./dist/UI/Components/Sheet/Sheet.js"
+    },
     "./Skeleton": {
       "types": "./dist/UI/Components/Skeleton/Skeleton.d.ts",
       "import": "./dist/UI/Components/Skeleton/Skeleton.js"
