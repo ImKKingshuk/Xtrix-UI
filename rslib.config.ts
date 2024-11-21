@@ -49,6 +49,7 @@ export default defineConfig({
       ScrollArea: ["./src/UI/Components/ScrollArea/index.ts"],
       Select: ["./src/UI/Components/Select/index.ts"],
       Separator: ["./src/UI/Components/Separator/index.ts"],
+      Sheet: ["./src/UI/Components/Sheet/index.ts"],
       Skeleton: ["./src/UI/Components/Skeleton/index.ts"],
       Slider: ["./src/UI/Components/Slider/index.ts"],
       Sonner: ["./src/UI/Components/Sonner/index.ts"],
